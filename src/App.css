@@ -1,0 +1,29 @@
+* {
+  scroll-behavior: smooth;
+  /* overflow: auto; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  min-height: 100vh;
+  background-color: #051622;
+  color: #fff;
+  padding-top: 130px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.page__title {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  margin-bottom: 20px;
+  padding: 4px;
+  border-radius: 50px;
+  color: #fff;
+}

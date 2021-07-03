@@ -1,0 +1,9 @@
+.genres {
+  padding: 10px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.genres__chip {
+  margin: 8px !important;
+}

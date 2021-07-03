@@ -1,0 +1,30 @@
+.trending {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 20px;
+}
+
+/*  Media Queries */
+@media only screen and (max-width: 767px) {
+  .trending {
+    display: block;
+  }
+  .App {
+    padding-top: 100px;
+  }
+  .card {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .trending {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .tabs .MuiTab-textColorPrimary.Mui-selected {
+    width: auto !important;
+  }
+}

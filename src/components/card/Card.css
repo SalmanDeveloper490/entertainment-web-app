@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #fff;
+  color: #000;
+}
+.poster {
+  border-radius: 10px;
+}
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px 3px;
+}
+.movie__details {
+  padding: 20px 0px 0px;
+}
+.title {
+  margin-bottom: 10px;
+  display: block;
+  height: 40px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+}

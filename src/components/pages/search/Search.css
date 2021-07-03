@@ -1,0 +1,9 @@
+.search__field {
+  display: flex;
+}
+.search__box {
+  flex: 1;
+}
+.tabs {
+  padding: 30px 0px;
+}
